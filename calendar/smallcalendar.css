@@ -1,0 +1,61 @@
+/*
+    Name: Thecanniestbadge
+    Date: 06/06/2023
+    Program: Calendar
+*/
+/* Style sheet for the annual calendar*/
+
+table, th, td{
+    border: 1px solid black;
+}
+td, th {
+    text-align: center;
+}
+#control {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 1084px;
+    
+}
+caption{
+    color: white;
+    background-color: black;
+}
+#calendar_table {
+    background-color: rgb(255, 232, 201);
+    width: 150px;
+    max-width: 100%;
+}
+#year {
+    font-size: 24px;
+    background-color: black;
+    margin-bottom: -15px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 1084px;
+    text-align: center;
+}
+.calendar_weekdays{
+    color: white;
+    background-color: grey;
+}
+#calendar_today{
+    color: rgb(241, 64, 64);
+}
+.weekend {
+    background-color: teal;
+}
+.emptycell {
+    background-color: lightgrey;
+}
+#calendar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0;
+}
